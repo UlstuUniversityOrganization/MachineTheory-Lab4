@@ -1,0 +1,28 @@
+out "Start"
+out ""
+
+out "Guess the number"
+in num
+
+if ( num == 12345 )
+out "Impossible"
+else
+out "Didn't guess"
+
+a = ( 14 + 26 ) * 7 / 5
+b = 6 / 2 * 33 - 15
+c = a + b - ( 144 / 12 - 27 ) * 3 + 256
+out c
+
+in d
+out d
+if ( d > 0 )
+out "Expression more than 0"
+elif ( d == 0 )
+out "Expression equals to 0"
+else
+out "Expression less than 0"
+endif
+
+out ""
+out "End"
